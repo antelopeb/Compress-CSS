@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var directory = process.argv[2],
 	fs = require('fs'),
 	path = require('path');

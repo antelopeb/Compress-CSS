@@ -11,5 +11,5 @@
   "engines" : { "node" : ">=0.1.27 <0.1.30" },
   "dependencies": {},
   "devDependencies": {},
-  "bin": { "smallCSS" : "./bin/CSS_compress.js" }
+  "bin": { "smallCSS" : "./CSS_compress.js" }
 }
