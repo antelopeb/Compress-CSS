@@ -1,0 +1,12 @@
+This is a work in progress, may or may not work as described!!!
+
+
+This is a simple CSS compressor to use for readying your CSS files for production.
+
+It's used through the command line by calling smallCSS {directoryName}. It will compress all the CSS in the directory, so you'll want to make a copy of your CSS before you run the compressor. Otherwise, it will over-write your original files.
+
+It forces the @imports based on the URL location, and crawls the directory to find all CSS files in there. It will compress everything it finds mercilessly, so plan ahead.
+
+A couple other notes - It doesn't hash image URL's yet, so make sure that your image URL's are relative to the directory the CSS file is in, and if necessary make copies of the images in the base directory.
+
+You can then call a single CSS file, which will be pleasantly compressed and produce only one HTTP call. Fantastic.

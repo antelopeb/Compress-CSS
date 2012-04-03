@@ -1,0 +1,17 @@
+{
+  "author": "Greg Davis <antelope.buzkowski@gmail.com> (http://www.monsterworksdesign.com)",
+  "name": "Compress-CSS",
+  "description": "A simple command line CSS compressor",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/antelopeb/Compress-CSS.git"
+  },
+  "main": "CSS_compress.js",
+  "engines": {
+    "node": "~v0.5.4"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "bin": { "smallCSS" : "./bin/CSS_compress.js" }
+}
