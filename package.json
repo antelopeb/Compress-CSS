@@ -8,9 +8,7 @@
     "url": "git://github.com/antelopeb/Compress-CSS.git"
   },
   "main": "CSS_compress.js",
-  "engines": {
-    "node": "~v0.5.4"
-  },
+  "engines" : { "node" : ">=0.1.27 <0.1.30" },
   "dependencies": {},
   "devDependencies": {},
   "bin": { "smallCSS" : "./bin/CSS_compress.js" }
