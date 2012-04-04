@@ -2,7 +2,7 @@
   "author": "Greg Davis <antelope.buzkowski@gmail.com> (http://www.monsterworksdesign.com)",
   "name": "Compress-CSS",
   "description": "A simple command line CSS compressor",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/antelopeb/Compress-CSS.git"
