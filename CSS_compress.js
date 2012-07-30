@@ -56,14 +56,14 @@ All line breaks are removed
 All @imports are hard coded
 */
 function compressCSS(data1, directory1) {
-	var isImport = data1.indexOf('@');
+	var isImport = data1.indexOf('@import');
 
 	while(isImport != -1){
 		//analyze imports
 
-		var importData = data1.slice(data1.indexOf('@')),
+		var importData = data1.slice(data1.indexOf('@import')),
 			semiColon = importData.indexOf(';') + 1,
-			importData = importData.slice(importData.indexOf('@'), semiColon),
+			importData = importData.slice(importData.indexOf('@import'), semiColon),
 			firstQuote = importData.indexOf('"') + 1,
 			element = importData.slice(firstQuote, importData.lastIndexOf('"')),
 			elementPath = directory1 + '/' + element;
@@ -79,7 +79,7 @@ function compressCSS(data1, directory1) {
 		data1 += data;
 
 		//reset the isImport with the new data to have recursiveness
-		isImport = data1.indexOf('@');
+		isImport = data1.indexOf('@import');
 	}
 
 	//remove all commments
